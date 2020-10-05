@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.botaoPequeno {
+  width: 50px;
+}
+
+.borda {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-login {
+  width: 100%;
+}
+
+.tamanhoInput {
+  width: 80%;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.caixaInput {
+  border: solid 1px black;
+  outline-color: black;
+}
+
+.erroInput {
+  border: solid 1px red;
+  outline-color: red;
+}
+
+.erro {
+  color: red;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ReactModal__Overlay {
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.ReactModal__Content {
+  font-size: 11px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 97, 0.5);
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  outline: none;
+  padding: 0;
+  overflow: auto;
+}
+.modal1 {
+  width: 40%;
+  height: 40%;
+}
+.modal2 {
+  width: 30%;
+}
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}
+
+.courier {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.fontePequena {
+  font-size: 8px;
+}
+
+.fonteMedia {
+  font-size: 13px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
